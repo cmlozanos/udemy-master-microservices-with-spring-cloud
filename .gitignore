@@ -1,0 +1,39 @@
+
+################# /limits-service/ ######################
+
+/limits-service/.gitignore
+/limits-service/HELP.md
+/limits-service/.gradle
+/limits-service/build/
+/limits-service/!gradle/wrapper/gradle-wrapper.jar
+/limits-service/!**/src/main/**
+/limits-service/!**/src/test/**
+/limits-service/
+
+### STS ###
+/limits-service/.apt_generated
+/limits-service/.classpath
+/limits-service/.factorypath
+/limits-service/.project
+/limits-service/.settings
+/limits-service/.springBeans
+/limits-service/.sts4-cache
+
+### IntelliJ IDEA ###
+/limits-service/.idea
+/limits-service/*.iws
+/limits-service/*.iml
+/limits-service/*.ipr
+/limits-service/out/
+
+### NetBeans ###
+/limits-service//nbproject/private/
+/limits-service//nbbuild/
+/limits-service//dist/
+/limits-service//nbdist/
+/limits-service//.nb-gradle/
+
+/limits-service/### VS Code ###
+/limits-service/.vscode/
+
+################# /limits-service/ ######################
