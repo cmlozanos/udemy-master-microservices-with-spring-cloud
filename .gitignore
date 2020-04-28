@@ -35,4 +35,9 @@
 ### VS Code ###
 /limits-service/.vscode/
 
+/limits-service/bin/
+/limits-service/gradle/wrapper
+/limits-service/gradlew
+/limits-service/gradlew.bat
+
 ################# /limits-service/ ######################
