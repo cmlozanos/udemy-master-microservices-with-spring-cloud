@@ -127,3 +127,46 @@
 /currency-exchange-service/gradlew.bat
 
 ################# /currency-exchange-service/ ######################
+
+################# /currency-conversion-service/ ######################
+
+/currency-conversion-service/.gitignore
+/currency-conversion-service/HELP.md
+/currency-conversion-service/.gradle
+/currency-conversion-service/build/
+/currency-conversion-service/!gradle/wrapper/gradle-wrapper.jar
+/currency-conversion-service/!**/src/main/**
+/currency-conversion-service/!**/src/test/**
+
+### STS ###
+/currency-conversion-service/.apt_generated
+/currency-conversion-service/.classpath
+/currency-conversion-service/.factorypath
+/currency-conversion-service/.project
+/currency-conversion-service/.settings
+/currency-conversion-service/.springBeans
+/currency-conversion-service/.sts4-cache
+
+### IntelliJ IDEA ###
+/currency-conversion-service/.idea
+/currency-conversion-service/*.iws
+/currency-conversion-service/*.iml
+/currency-conversion-service/*.ipr
+/currency-conversion-service/out/
+
+### NetBeans ###
+/currency-conversion-service//nbproject/private/
+/currency-conversion-service//nbbuild/
+/currency-conversion-service//dist/
+/currency-conversion-service//nbdist/
+/currency-conversion-service//.nb-gradle/
+
+### VS Code ###
+/currency-conversion-service/.vscode/
+
+/currency-conversion-service/bin/
+/currency-conversion-service/gradle/wrapper
+/currency-conversion-service/gradlew
+/currency-conversion-service/gradlew.bat
+
+################# /currency-conversion-service/ ######################
