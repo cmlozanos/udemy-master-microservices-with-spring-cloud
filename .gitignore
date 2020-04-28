@@ -33,7 +33,7 @@
 /limits-service//nbdist/
 /limits-service//.nb-gradle/
 
-/limits-service/### VS Code ###
+### VS Code ###
 /limits-service/.vscode/
 
 ################# /limits-service/ ######################
