@@ -84,3 +84,46 @@
 /spring-cloud-config-server/gradlew.bat
 
 ################# /spring-cloud-config-server/ ######################
+
+################# /currency-exchange-service/ ######################
+
+/currency-exchange-service/.gitignore
+/currency-exchange-service/HELP.md
+/currency-exchange-service/.gradle
+/currency-exchange-service/build/
+/currency-exchange-service/!gradle/wrapper/gradle-wrapper.jar
+/currency-exchange-service/!**/src/main/**
+/currency-exchange-service/!**/src/test/**
+
+### STS ###
+/currency-exchange-service/.apt_generated
+/currency-exchange-service/.classpath
+/currency-exchange-service/.factorypath
+/currency-exchange-service/.project
+/currency-exchange-service/.settings
+/currency-exchange-service/.springBeans
+/currency-exchange-service/.sts4-cache
+
+### IntelliJ IDEA ###
+/currency-exchange-service/.idea
+/currency-exchange-service/*.iws
+/currency-exchange-service/*.iml
+/currency-exchange-service/*.ipr
+/currency-exchange-service/out/
+
+### NetBeans ###
+/currency-exchange-service//nbproject/private/
+/currency-exchange-service//nbbuild/
+/currency-exchange-service//dist/
+/currency-exchange-service//nbdist/
+/currency-exchange-service//.nb-gradle/
+
+### VS Code ###
+/currency-exchange-service/.vscode/
+
+/currency-exchange-service/bin/
+/currency-exchange-service/gradle/wrapper
+/currency-exchange-service/gradlew
+/currency-exchange-service/gradlew.bat
+
+################# /currency-exchange-service/ ######################
