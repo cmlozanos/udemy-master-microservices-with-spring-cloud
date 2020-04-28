@@ -8,7 +8,6 @@
 /limits-service/!gradle/wrapper/gradle-wrapper.jar
 /limits-service/!**/src/main/**
 /limits-service/!**/src/test/**
-/limits-service/
 
 ### STS ###
 /limits-service/.apt_generated
