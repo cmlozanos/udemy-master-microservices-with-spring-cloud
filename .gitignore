@@ -170,3 +170,46 @@
 /currency-conversion-service/gradlew.bat
 
 ################# /currency-conversion-service/ ######################
+
+################# /netflix-eureka-server/ ######################
+
+/netflix-eureka-server/.gitignore
+/netflix-eureka-server/HELP.md
+/netflix-eureka-server/.gradle
+/netflix-eureka-server/build/
+/netflix-eureka-server/!gradle/wrapper/gradle-wrapper.jar
+/netflix-eureka-server/!**/src/main/**
+/netflix-eureka-server/!**/src/test/**
+
+### STS ###
+/netflix-eureka-server/.apt_generated
+/netflix-eureka-server/.classpath
+/netflix-eureka-server/.factorypath
+/netflix-eureka-server/.project
+/netflix-eureka-server/.settings
+/netflix-eureka-server/.springBeans
+/netflix-eureka-server/.sts4-cache
+
+### IntelliJ IDEA ###
+/netflix-eureka-server/.idea
+/netflix-eureka-server/*.iws
+/netflix-eureka-server/*.iml
+/netflix-eureka-server/*.ipr
+/netflix-eureka-server/out/
+
+### NetBeans ###
+/netflix-eureka-server//nbproject/private/
+/netflix-eureka-server//nbbuild/
+/netflix-eureka-server//dist/
+/netflix-eureka-server//nbdist/
+/netflix-eureka-server//.nb-gradle/
+
+### VS Code ###
+/netflix-eureka-server/.vscode/
+
+/netflix-eureka-server/bin/
+/netflix-eureka-server/gradle/wrapper
+/netflix-eureka-server/gradlew
+/netflix-eureka-server/gradlew.bat
+
+################# /netflix-eureka-server/ ######################
