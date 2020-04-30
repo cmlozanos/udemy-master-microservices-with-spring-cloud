@@ -22,7 +22,7 @@ public class CurrencyConversionController {
 		CurrencyConversionBean response = currencyExchangeServiceProxy.retrieveExchangeValue(from, to);
 		
 		BigDecimal totalCalculatedAmount = quantity.multiply(response.getConversionMultiple());
-		return new CurrencyConversionBean(response.getId(), from, to, response.getConversionMultiple(), quantity, totalCalculatedAmount , 8000);
+		return new CurrencyConversionBean(response.getId(), from, to, response.getConversionMultiple(), quantity, totalCalculatedAmount , response.getPort());
 	}
 	
 	@GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
@@ -36,7 +36,7 @@ public class CurrencyConversionController {
 		
 		
 		BigDecimal totalCalculatedAmount = quantity.multiply(response.getConversionMultiple());
-		return new CurrencyConversionBean(response.getId(), from, to, response.getConversionMultiple(), quantity, totalCalculatedAmount , 8000);
+		return new CurrencyConversionBean(response.getId(), from, to, response.getConversionMultiple(), quantity, totalCalculatedAmount , response.getPort());
 	}
 
 }
