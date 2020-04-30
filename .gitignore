@@ -213,3 +213,46 @@
 /netflix-eureka-server/gradlew.bat
 
 ################# /netflix-eureka-server/ ######################
+
+################# /netflix-zuul-api-gateway-server/ ######################
+
+/netflix-zuul-api-gateway-server/.gitignore
+/netflix-zuul-api-gateway-server/HELP.md
+/netflix-zuul-api-gateway-server/.gradle
+/netflix-zuul-api-gateway-server/build/
+/netflix-zuul-api-gateway-server/!gradle/wrapper/gradle-wrapper.jar
+/netflix-zuul-api-gateway-server/!**/src/main/**
+/netflix-zuul-api-gateway-server/!**/src/test/**
+
+### STS ###
+/netflix-zuul-api-gateway-server/.apt_generated
+/netflix-zuul-api-gateway-server/.classpath
+/netflix-zuul-api-gateway-server/.factorypath
+/netflix-zuul-api-gateway-server/.project
+/netflix-zuul-api-gateway-server/.settings
+/netflix-zuul-api-gateway-server/.springBeans
+/netflix-zuul-api-gateway-server/.sts4-cache
+
+### IntelliJ IDEA ###
+/netflix-zuul-api-gateway-server/.idea
+/netflix-zuul-api-gateway-server/*.iws
+/netflix-zuul-api-gateway-server/*.iml
+/netflix-zuul-api-gateway-server/*.ipr
+/netflix-zuul-api-gateway-server/out/
+
+### NetBeans ###
+/netflix-zuul-api-gateway-server//nbproject/private/
+/netflix-zuul-api-gateway-server//nbbuild/
+/netflix-zuul-api-gateway-server//dist/
+/netflix-zuul-api-gateway-server//nbdist/
+/netflix-zuul-api-gateway-server//.nb-gradle/
+
+### VS Code ###
+/netflix-zuul-api-gateway-server/.vscode/
+
+/netflix-zuul-api-gateway-server/bin/
+/netflix-zuul-api-gateway-server/gradle/wrapper
+/netflix-zuul-api-gateway-server/gradlew
+/netflix-zuul-api-gateway-server/gradlew.bat
+
+################# /netflix-zuul-api-gateway-server/ ######################
