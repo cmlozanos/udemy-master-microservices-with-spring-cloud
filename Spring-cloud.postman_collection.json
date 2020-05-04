@@ -1,0 +1,268 @@
+{
+	"info": {
+		"_postman_id": "cff4b08e-1f4b-488d-a4f6-6427089d59cc",
+		"name": "Spring-cloud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "limit-service",
+			"item": [
+				{
+					"name": "limits",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/limits",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"limits"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "spring-cloud-config-server",
+			"item": [
+				{
+					"name": "limits-service-configuration",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8088/limits-service/default",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"limits-service",
+								"default"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "limits-service-configuration-qa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8088/limits-service/qa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"limits-service",
+								"qa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "limits-service-configuration-dev",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8088/limits-service/dev",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"limits-service",
+								"dev"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "currency-exchange",
+			"item": [
+				{
+					"name": "currency-exchange",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/currency-exchange/from/INR/to/EUR/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"currency-exchange",
+								"from",
+								"INR",
+								"to",
+								"EUR",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "currency-exchange-8001",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/currency-exchange/from/USD/to/EUR/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"currency-exchange",
+								"from",
+								"USD",
+								"to",
+								"EUR",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "currency-conversion",
+			"item": [
+				{
+					"name": "conversion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8100/currency-conversion/from/INR/to/EUR/quantity/100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8100",
+							"path": [
+								"currency-conversion",
+								"from",
+								"INR",
+								"to",
+								"EUR",
+								"quantity",
+								"100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "conversion Feign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8100/currency-conversion-feign/from/INR/to/EUR/quantity/100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8100",
+							"path": [
+								"currency-conversion-feign",
+								"from",
+								"INR",
+								"to",
+								"EUR",
+								"quantity",
+								"100"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "zuul-filter",
+			"item": [
+				{
+					"name": "zuul currency exchange",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-exchange-service/currency-exchange/from/INR/to/EUR/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-exchange-service",
+								"currency-exchange",
+								"from",
+								"INR",
+								"to",
+								"EUR",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "zuul currency conversion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/INR/to/EUR/quantity/100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-conversion-service",
+								"currency-conversion-feign",
+								"from",
+								"INR",
+								"to",
+								"EUR",
+								"quantity",
+								"100"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
